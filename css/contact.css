@@ -1,0 +1,105 @@
+body{
+    background-image: url(../images/20200911020413413.jpg);
+    background-size: 100% 100%; 
+ } 
+ .clear{
+     clear: both;
+ }  
+ .nav .logo{
+     float: left;
+     padding-left: 50px;
+     padding-top: 5px;
+ }
+ .nav .links{
+     float: right;
+     margin-right: 80px;
+ }
+ .nav .links ul li{
+     float: left;
+     list-style: none;
+ }
+ .nav .links ul li a{
+     color: #fff;
+     font-size: 22px;
+     text-decoration: none;
+     margin-right: 30px;
+ }
+ .nav .links .on{
+    text-decoration: underline;
+}
+.header h1{
+    font-family: cursive;
+    color: #fff;
+    padding-left: 220px;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.form{
+    margin-left: 130px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ .form input[type=text]{
+    display: block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 380px;
+    border: 0px;
+    padding-left: 16px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+ .form textarea{
+    display: block;
+    height: 200px;
+    margin-bottom: 10px;
+    resize: none;
+    border: 0px;
+    padding-left: 16px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+ .form input[type=submit]{
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 160px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+.form input[type=submit]:hover{
+    text-decoration: underline;
+}
+.footer {
+    padding-top: 36px;
+    padding-bottom: 20px;
+}
+.footer .back{
+    float: left;
+}
+.footer .back a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 80px;
+}
+.footer .back a:hover{
+    text-decoration: underline;
+}
+.footer .icons{
+    float: right;
+    }
+    .footer .icons .iconic{
+        font-size: 30px;
+        color: #fff;
+        margin-right: 30px;
+    } 
+    .footer .icons .iconic:hover{
+        font-size: 36px;
+        color: rgb(59, 101, 180);
+    }

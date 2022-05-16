@@ -1,0 +1,94 @@
+body{
+   background-image: url(../images/Omar-Khairat.jpg);
+   background-size: 100% 100%; 
+} 
+.clear{
+    clear: both;
+}  
+.nav .logo{
+    float: left;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.nav .links{
+    float: right;
+    margin-right: 80px;
+}
+.nav .links ul li{
+    float: left;
+    list-style: none;
+}
+.nav .links ul li a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav .links ul li a:hover{
+    text-decoration: underline;
+}
+.concert{
+    text-transform: capitalize;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.concert h2{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.concert button{
+   border: 0px;
+   padding:11px 20px 11px 20px;
+   width: 160px;
+   font-size: 20px;
+   cursor: pointer;
+   background-color:rgba(59, 101, 180, 0.61);
+   margin-left: 260px;
+   color: #fff;
+}
+.concert button:hover{
+text-decoration: underline;
+}
+.txt{
+    width: 40%;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 80px;
+    margin-top: 43px;
+    padding: 2px 80px 2px 20px;
+    background-color: rgb(0,0,0,0.5);
+}
+.footer {
+    padding-bottom: 50px;
+}
+.footer .link{
+    float: left;
+}
+.footer .link ul li{
+float: left;
+list-style: none;
+}
+.footer .link ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.footer .link ul li a:hover{
+    text-decoration: underline;
+}
+.footer .icons{
+float: right;
+padding-top: 10px;
+}
+.footer .icons .iconic{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 30px;
+} 
+.footer .icons .iconic:hover{
+    font-size: 36px;
+    color: rgb(59, 101, 180);
+}

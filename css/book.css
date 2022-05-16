@@ -1,0 +1,137 @@
+body{
+    background-image: url(../images/58131.jpg);
+    background-size: 100% 100%; 
+ } 
+ .clear{
+     clear: both;
+ }  
+ .nav .logo{
+     float: left;
+     padding-left: 50px;
+     padding-top: 5px;
+ }
+ .nav .links{
+     float: right;
+     margin-right: 80px;
+ }
+ .nav .links ul li{
+     float: left;
+     list-style: none;
+ }
+ .nav .links ul li a{
+     color: #fff;
+     font-size: 22px;
+     text-decoration: none;
+     margin-right: 30px;
+ }
+ .nav .links .on{
+    text-decoration: underline;
+}
+.booking h1{
+    font-family: cursive;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+.booking p{
+    font-family: cursive;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+.booking form{
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 430px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.booking form input[type=text]{
+    display: block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 380px;
+    border: 0px;
+    padding-left: 16px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+
+}
+.booking form input[type=number]{
+    display: block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 380px;
+    border: 0px;
+    padding-left: 16px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+.booking form input[type=email]{
+    display: block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 380px;
+    border: 0px;
+    padding-left: 16px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+.booking form label{
+    display: block;
+    width: 380px;
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive;
+}
+.booking form select{
+    margin-top: 10px;
+    display: block;
+    width: 110px;
+    height: 25px;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+.booking form input[type=submit]{
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(59, 101, 180, 0.61);
+    color: #fff;
+}
+.booking form input[type=submit]:hover{
+    text-decoration: underline;
+}
+.footer {
+    padding-bottom: 30px;
+}
+.footer .back{
+    float: left;
+}
+.footer .back a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 80px;
+}
+.footer .back a:hover{
+    text-decoration: underline;
+}
+.footer .icons{
+    float: right;
+    }
+    .footer .icons .iconic{
+        font-size: 30px;
+        color: #fff;
+        margin-right: 30px;
+    } 
+    .footer .icons .iconic:hover{
+        font-size: 36px;
+        color: rgb(59, 101, 180);
+    }

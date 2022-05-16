@@ -1,0 +1,159 @@
+body{
+    background-image: url(../images/65060.jpg);
+    background-size: 100% 100%; 
+ } 
+ .clear{
+     clear: both;
+ }  
+ .nav .logo{
+     float: left;
+     padding-left: 50px;
+     padding-top: 5px;
+ }
+ .nav .links{
+     float: right;
+     margin-right: 80px;
+ }
+ .nav .links ul li{
+     float: left;
+     list-style: none;
+ }
+ .nav .links ul li a{
+     color: #fff;
+     font-size: 22px;
+     text-decoration: none;
+     margin-right: 30px;
+ }
+ .nav .links .on{
+     text-decoration: underline;
+ }
+ .header h1{
+    font-family: cursive;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+.header p{
+    font-family: cursive;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+}
+.upcoming {
+    text-align: center;
+    text-transform: capitalize;
+}
+.upcoming  h1{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.upcoming .next{
+    width: 40%;
+    float: left;
+    margin-left: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+}
+.upcoming .next2{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 16px;
+    float: left;
+}
+ .upcoming .next h2{
+    color: #fff;
+    font-family: cursive;
+  }
+   .upcoming .next img{
+    width: 100%;
+    height: 176px;
+}
+ .upcoming .next p{
+    color: #fff;
+    font-size: 20px;
+ }
+  .upcoming .next a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(59, 101, 180);
+    padding: 5px 25px 5px 25px;
+}
+.upcoming .next a:hover{
+    text-decoration: underline;
+}
+.last{
+ text-align: center;
+ text-transform: capitalize;
+}
+.last h1{
+    color: #fff;
+    text-decoration: underline;
+}
+.last .pre{
+    float: left;
+    width: 30%;
+    margin-left: 13px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+.last .pre img{
+    width: 100%;
+    height: 160px;
+}
+.last .pre h2{
+    color: #fff;
+    font-family: cursive;
+}
+.last .pre p{
+    color: #fff;
+    font-size: 20px;
+}
+.last .pre a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(59, 101, 180);
+    padding: 5px 18px 5px 18px;
+}
+.last .pre a:hover{
+    text-decoration: underline;
+}
+.footer {
+    padding-bottom: 30px;
+}
+.footer .back{
+    float: left;
+    padding-bottom: 20px;
+}
+.footer .back a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 80px;
+}
+.footer .back a:hover{
+    text-decoration: underline;
+}
+.footer .icons{
+    float: right;
+    padding-bottom: 20px;
+    }
+    .footer .icons .iconic{
+        font-size: 30px;
+        color: #fff;
+        margin-right: 30px;
+    } 
+    .footer .icons .iconic:hover{
+        font-size: 36px;
+        color: rgb(59, 101, 180);
+    }

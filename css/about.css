@@ -1,0 +1,74 @@
+body{
+    background-image: url(../images/about.jpg);
+    background-size: 100% 100%; 
+ } 
+ .clear{
+     clear: both;
+ }  
+ .nav .logo{
+     float: left;
+     padding-left: 50px;
+     padding-top: 5px;
+ }
+ .nav .links{
+     float: right;
+     margin-right: 80px;
+ }
+ .nav .links ul li{
+     float: left;
+     list-style: none;
+ }
+ .nav .links ul li a{
+     color: #fff;
+     font-size: 22px;
+     text-decoration: none;
+     margin-right: 30px;
+ }
+ .nav .links .on{
+     text-decoration: underline;
+ }
+ .header h1{
+     text-transform: capitalize;
+     color: #fff;
+     font-family: cursive;
+     margin-top: 50px;
+     text-align: center;
+ }
+ .content p{
+     color: #fff;
+     width: 40%;
+     font-size: 20px;
+     background-color: rgb(0, 0, 0,0.5);
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-right: 130px;
+     padding-bottom: 20px;
+     text-transform: capitalize;
+ }
+ .footer {
+    padding-bottom: 30px;
+}
+.footer .back{
+    float: left;
+}
+.footer .back a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 80px;
+}
+.footer .back a:hover{
+    text-decoration: underline;
+}
+.footer .icons{
+    float: right;
+    }
+    .footer .icons .iconic{
+        font-size: 30px;
+        color: #fff;
+        margin-right: 30px;
+    } 
+    .footer .icons .iconic:hover{
+        font-size: 36px;
+        color: rgb(59, 101, 180);
+    }
